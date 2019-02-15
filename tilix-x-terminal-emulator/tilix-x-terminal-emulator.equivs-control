@@ -1,0 +1,15 @@
+Section: gnome
+Priority: optional
+Homepage: https://gnunn1.github.io/tilix-web/
+Standards-Version: 3.9.2
+
+Package: tilix-x-terminal-emulator
+Version: 1.0
+Maintainer: Brian Moyles <brian+github@moyles.net>
+Depends: tilix
+Provides: x-terminal-emulator
+Architecture: amd64
+Description: Tiling terminal emulator for GNOME (dummy package)
+ This package installs tilix and declares it provides x-terminal-emulator.
+ While the packages provided in Debian and Ubuntu declare they provide
+ x-terminal-emulator, the package from the WebUpd8 PPA does not.
