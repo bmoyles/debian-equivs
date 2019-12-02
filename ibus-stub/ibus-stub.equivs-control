@@ -1,0 +1,15 @@
+Section: utils
+Priority: optional
+Homepage: https://github.com/ibus/ibus
+Standards-Version: 3.9.2
+
+Package: ibus-stub
+Version: 1.0
+Maintainer: Brian Moyles <brian+github@moyles.net>
+Provides: ibus, ibus-table, ibus-data
+Conflicts: ibus, ibus-table, ibus-data
+Replaces: ibus, ibus-table, ibus-data
+Architecture: amd64
+Description: ibus dummy package
+ This package satisfies ibus dependencies so pop-desktop is not evicted on
+ purge of ibus and ibus-table
